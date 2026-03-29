@@ -9,8 +9,10 @@ def home():
     return {"status": "running"}
 
 @app.get("/send")
+return {"status": "/send"}
 def send_email():
     try:
+        return {"status": "try /send"}
         sender = "oltenweb@gmail.com"
         receiver = "markovujovic522@gmail.com"
         password = os.getenv("EMAIL_PASSWORD")
