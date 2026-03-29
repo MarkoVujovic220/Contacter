@@ -13,7 +13,7 @@ def send_email():
     try:
         sender = "oltenweb@gmail.com"
         receiver = "oltenweb@gmail.com"
-        password = os.getenv("EMAIL_PASSWORD")
+        password = "gwld bkig nvdi bssr" #os.getenv("EMAIL_PASSWORD")
 
         message = "Subject: Test Email\n\nThis is a test email from your app 🚀"
 
