@@ -11,7 +11,7 @@ def home():
 @app.get("/send")
 def send_email():
     try:
-        sender = "markovujovic522@gmail.com"
+        sender = "oltenweb@gmail.com"
         receiver = "markovujovic522@gmail.com"
         password = os.getenv("EMAIL_PASSWORD")
 
